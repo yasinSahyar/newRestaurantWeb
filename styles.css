@@ -363,6 +363,105 @@ header nav ul li a {
     background-color: #ff9800;
 }
 
+
+/* about section */
+.about-section {
+    display:flex;
+    align-items: center;
+    background-color: #2e2e2e; /* dark background color */
+    padding: 100px;
+    color: white;
+}
+
+.about-image img {
+    max-width: 35%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 320px;
+}
+
+.about-content {
+    margin-left: -350px;
+    width: 450px;
+}
+
+.about-content h2 {
+    font-family: 'Your-Font-Here', sans-serif;
+    font-size: 38px;
+}
+.about-content p {
+    font-size: 20px;
+}
+
+.read-more {
+    background-color: #ffb400; /* yellow color for button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* Book A Table and location map */
+
+.booking-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    width: 60%;
+    margin-left: 350px;
+
+}
+
+.booking-form {
+    width: 50%;
+}
+
+.booking-form h2 {
+    font-family: 'Your-Font-Here', sans-serif;
+    font-size: 24px;
+    margin-left: 50px;
+}
+
+.booking-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.booking-form input,
+.booking-form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.booking-form button.book-now-btn {
+    background-color: #ffb400;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.booking-form button.book-now-btn:hover {
+    background-color: #ff9900;
+}
+
+.map-container {
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-left: 130px;
+}
+
+/*footer section*/
+
 footer {
     background-color: #2a2e35;
     color: #fff;
