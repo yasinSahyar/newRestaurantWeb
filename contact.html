@@ -23,6 +23,32 @@
         
     </header>
 
+    <!-- Book A Table and location map-->
+    <section class="booking-section">
+        <div class="booking-form">
+            <h2>Book A Table</h2>
+            <form action="form-action-url" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="tel" name="phone" placeholder="Phone Number" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="number" name="persons" placeholder="How many persons?" min="1" required>
+                <input type="date" name="date" placeholder="dd/mm/yyyy" required>
+                <button type="submit" class="book-now-btn">Book Now</button>
+            </form>
+        </div>
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=YOUR_GOOGLE_MAPS_EMBED_LINK_HERE"
+                width="100%"
+                height="90%"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+
     <script src="main.js"></script>
      <!--Footer -->
 
